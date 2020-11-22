@@ -1,0 +1,5 @@
+From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+605;3060;sea;8152;-1;-1;-1;-1;;FortRivelon
+3056;5424;sea;11705;-1;-1;-1;-1;;Alerot
+5424;2193;sea;11705;-1;-1;-1;-1;;Alerot
+-1;-1;;-1;-1;-1;-1;-1;-1

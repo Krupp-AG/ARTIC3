@@ -1,0 +1,13 @@
+add_namespace = eNoJftar
+
+##Event: Чрезвычайное происшествие
+news_event = {
+	id = eNoJftar.1
+	title = eNoJftar.1.title
+	desc = eNoJftar.1.desc
+	picture = GFX_report_event_panay_incident
+	major = yes
+	mean_time_to_happen = {
+		days = 10
+	}
+}

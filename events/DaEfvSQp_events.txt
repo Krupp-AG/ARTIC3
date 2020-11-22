@@ -1,0 +1,13 @@
+add_namespace = DaEfvSQp
+
+##Event: Чрезвычайное происшествие
+news_event = {
+	id = DaEfvSQp.1
+	title = DaEfvSQp.1.title
+	desc = DaEfvSQp.1.desc
+	picture = GFX_report_event_panay_incident
+	major = yes
+	mean_time_to_happen = {
+		days = 10
+	}
+}
