@@ -1,0 +1,26 @@
+
+state={
+	id=10
+	name="Blue mountains"
+
+	history={
+		owner = SIB
+		add_core_of = SIB
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			9741 15
+		}
+
+	}
+
+	provinces={
+		3747 2748 2919 3608 3575 3529 194 3677 3707 567 3622 2695 1149 2978 1526 3646 2598 3047 1559 3541 1370 3493
+	}
+	manpower=848900
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=8
+	name="Kmetvill"
+
+	history={
+		owner = SIB
+		add_core_of = SIB
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			9741 15
+		}
+
+	}
+
+	provinces={
+		1670 1268 730 2742 3713 459 3626 3680 3700 1516 2936 3596 3625 3665 1953 3739
+	}
+	manpower=848900
+	buildings_max_level_factor=1.000
+	state_category=town
+}

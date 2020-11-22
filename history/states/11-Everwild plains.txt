@@ -1,0 +1,26 @@
+
+state={
+	id=11
+	name="Everwild plains"
+
+	history={
+		owner = SIB
+		add_core_of = SIB
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			9741 15
+		}
+
+	}
+
+	provinces={
+		2283 1157 3415 2416 1476 3341 2687 2456 3274 1134
+	}
+	manpower=848900
+	buildings_max_level_factor=1.000
+	state_category=town
+}

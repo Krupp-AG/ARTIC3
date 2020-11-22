@@ -1,0 +1,26 @@
+
+state={
+	id=2
+	name="Arx"
+
+	history={
+		owner = RIV
+		add_core_of = RIV
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 6
+
+		}
+		victory_points = {
+			2890 30
+		}
+
+	}
+
+	provinces={
+		2890 569 81 1858 952 3058 3059 1153
+	}
+	manpower=848900
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

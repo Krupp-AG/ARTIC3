@@ -1,0 +1,26 @@
+
+state={
+	id=4
+	name="Aleroth"
+
+	history={
+		owner = RIV
+		add_core_of = RIV
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			9741 15
+		}
+
+	}
+
+	provinces={
+		2122 2949 5424 5425 1471 3056 990 3054 256 1421 774 3055 837 2167 1478 1703 230 1146 249 5423 2794
+	}
+	manpower=848900
+	buildings_max_level_factor=1.000
+	state_category=town
+}

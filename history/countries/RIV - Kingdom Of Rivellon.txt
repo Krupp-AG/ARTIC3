@@ -1,0 +1,142 @@
+﻿capital = 2890
+oob = "RIV_1936"
+set_research_slots = 3
+set_stability = 60
+set_war_support = 40
+#Starting tech
+set_technology = {
+	night_bombing = 1
+}
+
+#For start date 1939.1.1
+1939.1.1 = {
+	add_political_power = 500
+
+	#complete_national_focus = YOUR_FOCUS_ID
+	#complete_national_focus = YOUR_FOCUS_ID
+
+	set_technology = {
+	}
+	#set_convoys = 100
+}
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1935.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 10
+	fascism = 10
+	communism = 10
+	neutrality = 70
+}
+
+#Politics for 1939.1.1
+1939.1.1 = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1936.2.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 10
+		fascism = 10
+		communism = 10
+		neutrality = 70
+	}
+	
+}
+
+
+#Create country leader - Zandalor the Wise
+create_country_leader = {
+	name = "Zandalor the Wise"
+	#Custom image for Zandalor the Wise
+	picture = "zandalor_fix.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = { }
+}
+
+#Create country leader - horty
+create_country_leader = {
+	name = "horty"
+	picture = "portrait_usa_alexander_vandegrift.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = { }
+}
+
+#Create country leader - damn
+create_country_leader = {
+	name = "damn"
+	picture = "portrait_vladimir_cukavac.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = { }
+}
+
+#Create country leader - huj
+create_country_leader = {
+	name = "huj"
+	picture = "portrait_xsm_ma_bufang.dds"
+	expire = "1965.1.1"
+	ideology = anti_revisionism
+	traits = { }
+}
+
+#Create military leader - Blood Prince
+create_field_marshal = {
+	name = "Blood Prince"
+	picture = "leader_unknown.dds"
+	traits = { politically_connected brilliant_strategist lone_wolf old_guard_navy navy_media_personality caustic_personality }
+	skill = 4
+	attack_skill = 6
+	defence_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+	id = 1622092018714549
+}
+
+#Create military leader - Papirosnik
+create_corps_commander = {
+	name = "Papirosnik"
+	picture = "leader_unknown.dds"
+	traits = { inflexible_strategist }
+	skill = 1
+	attack_skill = 1
+	defence_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	id = 1622092018714611
+}
+
+#Create military leader - flim
+create_navy_leader = {
+	name = "flim"
+	picture = "leader_unknown.dds"
+	traits = { politically_connected }
+	skill = 6
+	attack_skill = 6
+	defence_skill = 6
+	maneuvering_skill = 6
+	coordination_skill = 6
+	id = 1622092018714612
+}
+
+#Create military leader - flam
+create_navy_leader = {
+	name = "flam"
+	picture = "leader_unknown.dds"
+	traits = { career_officer }
+	skill = 6
+	attack_skill = 6
+	defence_skill = 6
+	maneuvering_skill = 6
+	coordination_skill = 6
+	id = 1622092018714613
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=6
+	name="Yuthul Gor"
+
+	history={
+		owner = RIV
+		add_core_of = RIV
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			9741 15
+		}
+
+	}
+
+	provinces={
+		605 925 3061 2310 218 3063 1684 3064 3062 148 992 1798 2531
+	}
+	manpower=848900
+	buildings_max_level_factor=1.000
+	state_category=town
+}

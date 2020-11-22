@@ -1,0 +1,84 @@
+spriteTypes = { 
+	##Icon For: Небольшая чистка
+	frameAnimatedSpriteType = { 
+		name = "GFX_RIV__-65487"
+		texturefile = "gfx/interface/goals/GFX_RIV__-65487.dds"
+		noOfFrames = 8
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 5.0
+	}
+
+	##Icon Shine For: Небольшая чистка
+	SpriteType = { 
+		name = "GFX_RIV__-65487_shine"
+		texturefile = "gfx/interface/goals/GFX_RIV__-65487.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_RIV__-65487.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_RIV__-65487.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Небольшая чистка [вторая серия]
+	SpriteType = { 
+		name = "GFX_RIV____-65489"
+		texturefile = "gfx/interface/goals/GFX_RIV____-65489.dds"
+	}
+
+	##Icon Shine For: Небольшая чистка [вторая серия]
+	SpriteType = { 
+		name = "GFX_RIV____-65489_shine"
+		texturefile = "gfx/interface/goals/GFX_RIV____-65489.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_RIV____-65489.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_RIV____-65489.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+ 
+ }

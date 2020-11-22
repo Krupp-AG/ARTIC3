@@ -1,0 +1,26 @@
+
+state={
+	id=5
+	name="Fort Joy"
+
+	history={
+		owner = RIV
+		add_core_of = RIV
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			9741 15
+		}
+
+	}
+
+	provinces={
+		73 1691 509 3065 2812
+	}
+	manpower=848900
+	buildings_max_level_factor=1.000
+	state_category=town
+}

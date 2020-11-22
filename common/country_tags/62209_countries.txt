@@ -1,0 +1,3 @@
+RIV = "countries/Kingdom Of Rivellon.txt"
+SIB = "countries/Sibir.txt"
+DEP = "countries/Deponya.txt"

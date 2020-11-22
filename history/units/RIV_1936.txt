@@ -1,0 +1,83 @@
+﻿division_template = {
+	name = "Dragon knights"			# Infantry Division
+	division_names_group = RIV_INF_01
+	# Note: Divisions were nowhere near full strength until mobilized
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+units = {
+	######## LAND OOB ########
+	##### Zandalor The wise Ministry of defense #####
+	division = { # "I. Pork"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 81
+		division_template = "Dragon knights"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "RIV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+	division = { # "II. Pork"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 3060
+		division_template = "Dragon knights"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "RIV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+	division = { # "III. Pork"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 2794
+		division_template = "Dragon knights"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "RIV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+
+	##### No Naval OOB #####
+}
+
+air_wings = {
+	### Dragons
+	11 = {
+		# Naikintuvas Aviacijos Grupo -- Dewotine 501s, Fiat CR.20s, Fokker D.VIIs, Letov S.20Ls
+		fighter_equipment_0 =  {
+			owner = "RIV" 
+			amount = 48
+		}
+	}
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "RIV"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+}

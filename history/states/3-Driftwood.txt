@@ -1,0 +1,28 @@
+
+state={
+	id=3
+	name="Driftwood"
+
+	history={
+		owner = RIV
+		add_core_of = RIV
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 3
+			arms_factory = 1
+			industrial_complex = 4
+
+		}
+		victory_points = {
+			607 15
+		}
+
+	}
+
+	provinces={
+		607 3060 224 2118 128 2649 839 3057 1430 395 2193 203
+	}
+	manpower=848900
+	buildings_max_level_factor=1.000
+	state_category=metropolis

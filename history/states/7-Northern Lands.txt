@@ -1,0 +1,26 @@
+
+state={
+	id=7
+	name="Northem Lands"
+
+	history={
+		owner = SIB
+		add_core_of = SIB
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			9741 15
+		}
+
+	}
+
+	provinces={
+		2642 3069 805 3067 937 339 3073 270 1794 2256 1518 2937 58
+	}
+	manpower=848900
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,43 @@
+focus_tree = {
+	id = 1
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RIV
+		}
+	}
+	#Focus for Небольшая чистка - focus ID randomly generated due to title being in non-latin characters
+	focus = {
+		id = RIV__
+		icon = GFX_RIV__-65487
+		x = 10
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Небольшая чистка [вторая серия] - focus ID randomly generated due to title being in non-latin characters
+	focus = {
+		id = RIV____
+		icon = GFX_RIV____-65489
+		x = 10
+		y = 2
+		cost = 15
+		available_if_capitulated = yes
+		prerequisite = { focus = RIV__ }
+		search_filters = { FOCUS_FILTER_STABILITY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability= 100
+		}
+	}
+
+#End of focuses 
+ }

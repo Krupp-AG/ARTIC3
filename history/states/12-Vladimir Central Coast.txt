@@ -1,0 +1,26 @@
+
+state={
+	id=12
+	name="Vladimir Central Coast"
+
+	history={
+		owner = DEP
+		add_core_of = DEP
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			2219 15
+		}
+
+	}
+
+	provinces={
+		2219 2855 3354 1709 3293 2583 2513 1886 2776
+	}
+	manpower=848900
+	buildings_max_level_factor=1.000
+	state_category=town
+}
